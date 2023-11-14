@@ -1,0 +1,14 @@
+/Lib/
+/Scripts/
+/pyvenv.cfg/
+.idea/SQLalchemy_practice.iml
+.idea/dataSources.xml
+.idea/inspectionProfiles/
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+__pycache__/
+db.sqlite3
+venv/include/
+venv/Lib/
+venv/Scripts/

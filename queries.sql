@@ -1,0 +1,14 @@
+CREATE TABLE users (
+	id INTEGER NOT NULL,
+	name VARCHAR(10) NOT NULL,
+	username VARCHAR,
+	PRIMARY KEY (id)
+);
+
+CREATE TABLE addressses (
+	id INTEGER NOT NULL,
+	email VARCHAR NOT NULL,
+	user_id INTEGER NOT NULL,
+	PRIMARY KEY (id),
+	FOREIGN KEY(user_id) REFERENCES users (id)
+);
